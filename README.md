@@ -1,6 +1,8 @@
 # nkuhanas
 
-I build systems across agent infrastructure, workflow tooling, local-first compute, and automation. Incoming CS freshman at Cal Poly SLO.
+I build systems across agent infrastructure, workflow tooling, local-first compute, and automation.
+
+I’m an incoming CS freshman at Cal Poly SLO.
 
 My current public focus is [Parley](https://github.com/nkuhanas/Parley), a harness-agnostic coordination backend for AI agents. Parley gives agents durable state outside chat history: identity recovery, board-scoped authority, obligations, artifacts, effects, plans, and guided next actions.
 
