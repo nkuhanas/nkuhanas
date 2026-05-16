@@ -1,16 +1,31 @@
-## Hi there 👋
+# nkuhanas
 
-<!--
-**nkuhanas/nkuhanas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build systems across agent infrastructure, workflow tooling, local-first compute, and automation.
 
-Here are some ideas to get you started:
+My current public focus is [Parley](https://github.com/nkuhanas/Parley), a harness-agnostic coordination backend for AI agents. Parley gives agents durable state outside chat history: identity recovery, board-scoped authority, obligations, artifacts, effects, plans, and guided next actions.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+
+### [Parley](https://github.com/nkuhanas/Parley)
+
+Persistent coordination state for AI agents: harness-agnostic, self-describing, and recovery-first.
+
+Parley helps long-running agents recover after restarts, context compaction, handoffs, and multi-agent work. It has an OpenClaw primary adapter, a Codex CLI wrapper, and CLI/HTTP/JavaScript API surfaces for custom runtimes.
+
+### Kairos
+
+Private agentic workflow system for content generation, curation, provenance, and structured runtime pipelines.
+
+Kairos is not currently open source, but it informs my work around agent governance, durable state, curation loops, and workflow design.
+
+## Interests
+
+- agent coordination
+- durable state and recovery
+- scoped authority
+- local-first infrastructure
+- developer tooling
+- automation systems
+- Linux environments
+- workflow governance
+- provenance and auditability
