@@ -1,6 +1,6 @@
 # nkuhanas
 
-I build systems across agent infrastructure, workflow tooling, local-first compute, and automation.
+I build systems across agent infrastructure, workflow tooling, local-first compute, and automation. Incoming CS freshman at Cal Poly SLO.
 
 My current public focus is [Parley](https://github.com/nkuhanas/Parley), a harness-agnostic coordination backend for AI agents. Parley gives agents durable state outside chat history: identity recovery, board-scoped authority, obligations, artifacts, effects, plans, and guided next actions.
 
@@ -17,15 +17,3 @@ Parley helps long-running agents recover after restarts, context compaction, han
 Private agentic workflow system for content generation, curation, provenance, and structured runtime pipelines.
 
 Kairos is not currently open source, but it informs my work around agent governance, durable state, curation loops, and workflow design.
-
-## Interests
-
-- agent coordination
-- durable state and recovery
-- scoped authority
-- local-first infrastructure
-- developer tooling
-- automation systems
-- Linux environments
-- workflow governance
-- provenance and auditability
