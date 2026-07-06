@@ -1,21 +1,19 @@
-# Chace
-
-I build systems across agent infrastructure, workflow tooling, local-first compute, and automation.
+I build systems across agent infrastructure, developer tooling, local-first compute, and automation.
 
 I’m an incoming CS freshman at Cal Poly SLO.
 
-My current public focus is [Parley](https://github.com/nkuhanas/Parley), a harness-agnostic coordination backend for AI agents. Parley gives agents durable state outside chat history: identity recovery, board-scoped authority, obligations, artifacts, effects, plans, and guided next actions.
+My current public focus is [Monde](https://github.com/nkuhanas/Monde) and [Parley](https://github.com/nkuhanas/Parley): local-first operator tooling and durable coordination state for AI agents working across real project directories.
 
 ## Projects
 
+### [Monde](https://github.com/nkuhanas/Monde)
+
+Local operator console for AI agents working inside real project directories.
+
+Monde makes agent work visible, scoped, reviewable, and recoverable through a local web console, CLI, MCP service, and run evidence model. It is designed around practical operator questions: what is running, what changed, what artifacts were produced, what needs review, and what is safe to release.
+
 ### [Parley](https://github.com/nkuhanas/Parley)
 
-Persistent coordination state for AI agents: harness-agnostic, self-describing, and recovery-first.
+Durable coordination state for long-running and multi-agent workflows.
 
-Parley helps long-running agents recover after restarts, context compaction, handoffs, and multi-agent work. It has an OpenClaw primary adapter, a Codex CLI wrapper, and CLI/HTTP/JavaScript API surfaces for custom runtimes.
-
-### Kairos
-
-Private agentic workflow system for content generation, curation, provenance, and structured runtime pipelines.
-
-Kairos is not currently open source, but it informs my work around agent governance, durable state, curation loops, and workflow design.
+Parley gives agents persistent identity, obligations, artifacts, effects, relationships, plan lifecycle state, and recovery guidance outside chat history. It helps agents resume safely after restarts, context compaction, handoffs, multiple workers, multiple machines, or human review.
