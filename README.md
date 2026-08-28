@@ -1,6 +1,6 @@
 I build systems across agent infrastructure, developer tooling, local-first compute, and automation.
 
-I’m an incoming CS freshman at Cal Poly SLO.
+I’m a CS major at Cal Poly SLO.
 
 My current public focus is [Monde](https://github.com/nkuhanas/Monde) and [Parley](https://github.com/nkuhanas/Parley): local-first operator tooling and durable coordination state for AI agents working across real project directories.
 
