@@ -15,8 +15,8 @@ A local-first runtime and control plane for autonomous agents working inside
 real project directories. Monde gives agents bounded execution, operational
 memory, and durable run evidence across a web console, CLI, and MCP service.
 
-**Interfaces:** Web console · CLI · MCP
-**Storage:** SQLite
+**Interfaces:** Web console · CLI · MCP<br>
+**Storage:** SQLite<br>
 **Status:** Active development
 
 ### [Docket ↗](https://github.com/nkuhanas/Docket) — Turn what you mean into what gets done.
@@ -28,8 +28,8 @@ actions. Docket provides immutable previews, durable authorization, and auditabl
 execution evidence, with calendar automation and reminders as its first
 operational surface.
 
-**Focus:** Intent → typed changes → execution
-**Interfaces:** Web application · Calendar integrations
+**Focus:** Intent → typed changes → execution<br>
+**Interfaces:** Web application · Calendar integrations<br>
 **Status:** Active development
 
 ### [Parley ↗](https://github.com/nkuhanas/Parley) — Long-running agent work, without losing the thread.
@@ -40,5 +40,5 @@ A durable coordination backend for long-running and multi-agent workflows.
 Parley preserves identity, obligations, plans, artifacts, effects, relationships,
 and recovery state across restarts, context loss, and human handoffs.
 
-**Focus:** Durable coordination · Recovery · Multi-agent state
+**Focus:** Durable coordination · Recovery · Multi-agent state<br>
 **Role:** Harness-agnostic backend
