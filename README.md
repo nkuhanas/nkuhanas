@@ -1,19 +1,44 @@
-I build systems across agent infrastructure, developer tooling, local-first compute, and automation.
+# Local-first systems for durable agent work
 
-I’m a CS major at Cal Poly SLO.
+I build infrastructure for agents and operators—systems that keep execution
+bounded, decisions explicit, state durable, and outcomes inspectable.
 
-My current public focus is [Monde](https://github.com/nkuhanas/Monde) and [Parley](https://github.com/nkuhanas/Parley): local-first operator tooling and durable coordination state for AI agents working across real project directories.
+Computer Science at Cal Poly San Luis Obispo.
 
 ## Projects
 
-### [Monde](https://github.com/nkuhanas/Monde)
+### [Monde ↗](https://github.com/nkuhanas/Monde) — Give agents a world to work in.
 
-Local operator console for AI agents working inside real project directories.
+<a href="https://github.com/nkuhanas/Monde"><img src="./assets/flipped_mascot_large_logo_v1.png" height="180" alt="Monde mascot" /></a>&nbsp;&nbsp;<a href="https://github.com/nkuhanas/Monde"><img src="./assets/monde-dashboard-hero.png" height="180" alt="Monde dashboard overview" /></a>
 
-Monde makes agent work visible, scoped, reviewable, and recoverable through a local web console, CLI, MCP service, and run evidence model. It is designed around practical operator questions: what is running, what changed, what artifacts were produced, what needs review, and what is safe to release.
+A local-first runtime and control plane for autonomous agents working inside
+real project directories. Monde gives agents bounded execution, operational
+memory, and durable run evidence across a web console, CLI, and MCP service.
 
-### [Parley](https://github.com/nkuhanas/Parley)
+**Interfaces:** Web console · CLI · MCP
+**Storage:** SQLite
+**Status:** Active development
 
-Durable coordination state for long-running and multi-agent workflows.
+### [Docket ↗](https://github.com/nkuhanas/Docket) — Turn what you mean into what gets done.
 
-Parley gives agents persistent identity, obligations, artifacts, effects, relationships, plan lifecycle state, and recovery guidance outside chat history. It helps agents resume safely after restarts, context compaction, handoffs, multiple workers, multiple machines, or human review.
+<a href="https://github.com/nkuhanas/Docket"><img src="./assets/docket-logo-v1.png" width="180" alt="Docket logo" /></a>
+
+A structured execution layer that turns operator intent into typed, inspectable
+actions. Docket provides immutable previews, durable authorization, and auditable
+execution evidence, with calendar automation and reminders as its first
+operational surface.
+
+**Focus:** Intent → typed changes → execution
+**Interfaces:** Web application · Calendar integrations
+**Status:** Active development
+
+### [Parley ↗](https://github.com/nkuhanas/Parley) — Long-running agent work, without losing the thread.
+
+<a href="https://github.com/nkuhanas/Parley"><img src="./assets/Parley-Seal.png" width="180" alt="Parley seal" /></a>
+
+A durable coordination backend for long-running and multi-agent workflows.
+Parley preserves identity, obligations, plans, artifacts, effects, relationships,
+and recovery state across restarts, context loss, and human handoffs.
+
+**Focus:** Durable coordination · Recovery · Multi-agent state
+**Role:** Harness-agnostic backend
