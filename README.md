@@ -1,6 +1,6 @@
 # Local-first systems for durable agent work
 
-I build infrastructure for agents and operators—systems
+I build infrastructure for agents and operators
 
 CS @ Cal Poly San Luis Obispo.
 
