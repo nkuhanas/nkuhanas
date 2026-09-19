@@ -1,9 +1,8 @@
 # Local-first systems for durable agent work
 
-I build infrastructure for agents and operators—systems that keep execution
-bounded, decisions explicit, state durable, and outcomes inspectable.
+I build infrastructure for agents and operators—systems
 
-Computer Science at Cal Poly San Luis Obispo.
+CS @ Cal Poly San Luis Obispo.
 
 ## Projects
 
